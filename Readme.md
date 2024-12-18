@@ -1,5 +1,5 @@
 # Top shortcut
-Project #4 with Python. Control your own shortcuts.
+Project #5 with Python. Control your own shortcuts.
 
 Python program in which you can create keyboard shortcuts
 and configure them to perform certain actions, open web pages,
@@ -18,11 +18,10 @@ in the .json file it comes in the following format:
 
 ````json
 {
-"shortcuts": [
-["local", "fravelz", "turnOff.bat"],
-["web", "youtube", "https:youtube.com/"],
-]
-]
+    "shortcuts": [
+        ["local", "fravelz", "turnOff.bat"],
+        ["web", "youtube", "https:youtube.com/"],
+    ]
 }
 `````
 
@@ -52,7 +51,7 @@ Every time you want to add more commands and shortcuts, just put a comma at the 
 
 > For a better experience, it is recommended that you move the shortcut (Top Shortcut) to the user's startup folder so that you can access the shortcuts every time you start the PC and thus increase productivity.
 
-````js
+````
 C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 `````
 Best regards!!!
