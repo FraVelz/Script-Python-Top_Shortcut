@@ -25,14 +25,16 @@ class tools:
         self.text = ''
 
     def verify_list_(self, k, shortcuts=[], function=None): # f == f 
-        self.text += str(k) 
-        for e in shortcuts:
+        self.text += str(k)
 
+        for e in shortcuts:
             if e in self.text:
+        
                 try: function(e)
                 except: pass
-
                 self.text = ''
+
+            elif k == 'space': self.text = ''
             else: pass
 
     def info_obtain(self, opc='shorcut') -> list:
